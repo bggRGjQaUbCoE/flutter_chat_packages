@@ -28,7 +28,7 @@ class ChatBottomContainerListenerManager {
     return _instance;
   }
 
-  _init() {
+  void _init() {
     flutterApi = FSAChatBottomContainerFlutterApiImp(
       onKeyboardHeight: (height) {
         // Full call, but only the input box that has gained focus can handle

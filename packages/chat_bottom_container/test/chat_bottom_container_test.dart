@@ -42,7 +42,7 @@ void main() {
     pageSetState = null;
   });
 
-  updatePanelType(PanelType type) {
+  void updatePanelType(PanelType type) {
     controller.updatePanelType(
       PanelType.keyboard == type
           ? ChatBottomPanelType.keyboard
@@ -188,14 +188,14 @@ void main() {
     return resultWidget;
   }
 
-  switchToEmojiPanel() {
+  void switchToEmojiPanel() {
     inputFocusNode.requestFocus();
     readOnly = true;
     pageSetState?.call(() {});
     updatePanelType(PanelType.emoji);
   }
 
-  switchToNone() {
+  void switchToNone() {
     if (inputFocusNode.hasFocus) {
       inputFocusNode.unfocus();
     }
@@ -208,11 +208,11 @@ void main() {
     }
   }
 
-  switchToToolPanel() {
+  void switchToToolPanel() {
     updatePanelType(PanelType.tool);
   }
 
-  switchToKeyboard({
+  void switchToKeyboard({
     required bool byUserClick,
   }) {
     readOnly = false;

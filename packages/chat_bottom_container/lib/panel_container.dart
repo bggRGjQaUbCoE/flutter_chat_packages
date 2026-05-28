@@ -11,6 +11,10 @@ import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class ChatBottomPanelContainerController<T> {
+  ChatBottomPanelContainerController({this.uiScale = 1.0});
+
+  final double uiScale;
+
   _ChatBottomPanelContainerState? _state;
 
   /// The data used to associate with user-defined panel types.
@@ -158,7 +162,7 @@ class _ChatBottomPanelContainerState<T>
 
   Future<SharedPreferences> get preferences => SharedPreferences.getInstance();
 
-  void setup() async {
+  Future<void> setup() async {
     safeAreaBottom = widget.safeAreaBottom ?? 0;
     widget.controller._attachState(this);
     chatKeyboardManagerId = ChatBottomContainerListenerManager().register(
@@ -181,7 +185,7 @@ class _ChatBottomPanelContainerState<T>
   }
 
   /// Record the height of the keyboard.
-  recordKeyboardHeight(double height) async {
+  Future<void> recordKeyboardHeight(double height) async {
     if (height <= 0) return;
     final isPortrait =
         MediaQuery.orientationOf(context) == Orientation.portrait;
@@ -283,7 +287,7 @@ class _ChatBottomPanelContainerState<T>
       curve: curve,
       child: fetchPanel(),
     );
-    return Container(
+    return ColoredBox(
       color: widget.panelBgColor,
       child: resultWidget,
     );
@@ -379,9 +383,9 @@ class _ChatBottomPanelContainerState<T>
     final isPortrait =
         MediaQuery.orientationOf(context) == Orientation.portrait;
     if (isPortrait) {
-      currentNativeKeyboardHeightPortrait = height;
+      currentNativeKeyboardHeightPortrait = height / widget.controller.uiScale;
     } else {
-      currentNativeKeyboardHeightLandscape = height;
+      currentNativeKeyboardHeightLandscape = height / widget.controller.uiScale;
     }
     // Record the height of the keyboard.
     recordKeyboardHeight(height);
@@ -411,7 +415,7 @@ class _ChatBottomPanelContainerState<T>
   /// input box to have focus and not pop up the system keyboard, you need to
   /// set it to [ChatBottomHandleFocus.requestFocus]. In addition, you also need
   /// to set the [TextField.readOnly] to true.
-  updatePanelType(
+  void updatePanelType(
     ChatBottomPanelType type, {
     bool isIgnoreFocusListener = false,
     ChatBottomHandleFocus forceHandleFocus = ChatBottomHandleFocus.none,
