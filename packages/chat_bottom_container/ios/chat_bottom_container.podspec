@@ -13,23 +13,11 @@ A new Flutter plugin project.
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Your Company' => 'email@example.com' }
   s.source           = { :path => '.' }
-  s.source_files = 'Classes/**/*'
-  s.vendored_frameworks = 'Frameworks/FSAChatBottomContainer.xcframework'
+  s.source_files = 'chat_bottom_container/Sources/chat_bottom_container/**/*.swift'
   s.dependency 'Flutter'
   s.platform = :ios, '11.0'
-  s.prepare_command = <<-CMD
-    VERSION="0.0.1"
-    IOS_FRAMEWORK_PATH=Frameworks
-    IOS_ZIP=ios_${VERSION}.zip
-    IOS_ZIP_PATH=$IOS_FRAMEWORK_PATH/$IOS_ZIP
-    rm -rf $IOS_FRAMEWORK_PATH
-    mkdir -p $IOS_FRAMEWORK_PATH
-    curl -L -o $IOS_ZIP_PATH "https://github.com/LinXunFeng/flutter_chat_packages_pub/releases/download/chat_bottom_container/${IOS_ZIP}"
-    unzip $IOS_ZIP_PATH -d $IOS_FRAMEWORK_PATH
-    rm $IOS_ZIP_PATH
-  CMD
 
   # Flutter.framework does not contain a i386 slice.
-  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
+  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
   s.swift_version = '5.0'
 end
