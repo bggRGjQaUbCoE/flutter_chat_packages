@@ -7,7 +7,7 @@
 import 'package:chat_bottom_container/constants.dart';
 import 'package:chat_bottom_container/listener_manager.dart';
 import 'package:chat_bottom_container/typedef.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class ChatBottomPanelContainerController<T> {

@@ -10,7 +10,7 @@ import 'package:chat_bottom_container_example/feature/home_chat/header/home_chat
 import 'package:chat_bottom_container_example/feature/home_chat/logic/home_chat_logic.dart';
 import 'package:chat_bottom_container_example/feature/home_chat/state/home_chat_state.dart';
 import 'package:chat_bottom_container_example/feature/home_chat/widget/home_chat_floating_view.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:get/get.dart';
 import 'package:getx_helper/getx_helper.dart';
 

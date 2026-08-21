@@ -14,7 +14,7 @@ import 'package:chat_bottom_container_example/feature/chat_animation/widget/pane
 import 'package:chat_bottom_container_example/feature/chat_animation/widget/panel_container/chat_animation_switcher_transitions_panel_container.dart';
 import 'package:chat_bottom_container_example/feature/chat_animation/widget/panel_container/chat_animation_transitioned_indexed_stack_panel_container.dart';
 import 'package:chat_bottom_container_example/feature/chat_animation/widget/panel_container/chat_animation_switcher_plus_panel_container.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 class ChatAnimationPanelContainer extends StatefulWidget {
   const ChatAnimationPanelContainer({super.key});

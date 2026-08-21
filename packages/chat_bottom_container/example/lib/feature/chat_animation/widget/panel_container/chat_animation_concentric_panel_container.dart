@@ -9,7 +9,7 @@ import 'package:chat_bottom_container_example/feature/chat_animation/logic/chat_
 import 'package:chat_bottom_container_example/feature/chat_animation/logic/chat_animation_logic_panel_container.dart';
 import 'package:chat_bottom_container_example/feature/chat_animation/state/chat_animation_state.dart';
 import 'package:concentric_transition/page_view.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:get/get.dart';
 
 class ChatAnimationConcentricPanelContainer extends StatefulWidget {

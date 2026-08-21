@@ -7,7 +7,7 @@
 import 'package:chat_bottom_container_example/feature/chat_animation/header/chat_animation_header.dart';
 import 'package:chat_bottom_container_example/feature/chat_animation/logic/chat_animation_logic_list_view.dart';
 import 'package:chat_bottom_container_example/feature/chat_animation/logic/chat_animation_logic_panel_container.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 class ChatAnimationListView extends StatefulWidget {
   const ChatAnimationListView({super.key});

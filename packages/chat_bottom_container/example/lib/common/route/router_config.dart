@@ -11,7 +11,7 @@ import 'package:chat_bottom_container_example/feature/home/page/home_page.dart';
 import 'package:chat_bottom_container_example/feature/home_animation/page/home_animation_page.dart';
 import 'package:chat_bottom_container_example/feature/home_chat/page/home_chat_page.dart';
 import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:go_router/go_router.dart';
 
 class MyPage {

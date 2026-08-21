@@ -4,7 +4,7 @@
  * @Date: 2025-06-28 21:17:23
  */
 
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:go_router/go_router.dart';
 
 class NavigationService {

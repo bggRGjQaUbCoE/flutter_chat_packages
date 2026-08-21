@@ -10,7 +10,7 @@ import 'package:chat_bottom_container_example/feature/chat/logic/chat_logic.dart
 import 'package:chat_bottom_container_example/feature/chat/logic/chat_logic_panel_container.dart';
 import 'package:chat_bottom_container_example/feature/chat/page/chat_page.dart';
 import 'package:chat_bottom_container_example/feature/chat/state/chat_state.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:get/get_state_manager/src/simple/get_state.dart';
 
 class ChatPanelContainer extends StatefulWidget {

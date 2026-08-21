@@ -8,7 +8,7 @@ import 'package:chat_bottom_container/chat_bottom_container.dart';
 import 'package:chat_bottom_container_example/feature/comment/header/comment_header.dart';
 import 'package:chat_bottom_container_example/feature/comment/logic/comment_logic.dart';
 import 'package:chat_bottom_container_example/feature/comment/logic/comment_logic_input_view.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 extension CommentLogicPanel on CommentLogic {
   void hidePanel() {

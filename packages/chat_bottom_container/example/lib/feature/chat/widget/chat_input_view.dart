@@ -8,7 +8,7 @@ import 'package:chat_bottom_container_example/feature/chat/header/chat_header.da
 import 'package:chat_bottom_container_example/feature/chat/logic/chat_logic.dart';
 import 'package:chat_bottom_container_example/feature/chat/logic/chat_logic_panel_bar.dart';
 import 'package:chat_bottom_container_example/feature/chat/state/chat_state.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:get/get.dart';
 
 class ChatInputView extends StatefulWidget {

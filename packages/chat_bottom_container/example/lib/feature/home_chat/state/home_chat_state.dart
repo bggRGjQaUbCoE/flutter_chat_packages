@@ -6,7 +6,7 @@
 
 import 'package:chat_bottom_container/panel_container.dart';
 import 'package:chat_bottom_container_example/feature/home/logic/home_logic.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 class HomeChatState {
   late BuildContext context;

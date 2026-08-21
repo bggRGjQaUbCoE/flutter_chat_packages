@@ -6,7 +6,7 @@
 
 import 'package:chat_bottom_container_example/feature/chat_animation/header/chat_animation_header.dart';
 import 'package:chat_bottom_container_example/feature/chat_animation/logic/chat_animation_logic.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 extension ChatAnimationLogicListView on ChatAnimationLogic {
   bool listViewReverse() {

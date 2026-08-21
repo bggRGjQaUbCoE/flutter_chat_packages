@@ -7,7 +7,7 @@
 import 'package:chat_bottom_container/chat_bottom_container.dart';
 import 'package:chat_bottom_container_example/feature/chat/header/chat_header.dart';
 import 'package:chat_bottom_container_example/feature/chat/page/chat_page.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 class ChatState {
   late ChatPageState pageState;

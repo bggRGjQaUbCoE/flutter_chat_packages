@@ -41,6 +41,7 @@ dependencies:
   cube_transition_plus: ^2.0.1
   concentric_transition: ^1.0.3
 
+  material_ui: any
 dev_dependencies:
   integration_test:
     sdk: flutter

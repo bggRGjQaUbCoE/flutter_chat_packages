@@ -8,7 +8,7 @@ import 'package:chat_bottom_container_example/feature/home/header/home_header.da
 import 'package:chat_bottom_container_example/feature/home/logic/home_logic.dart';
 import 'package:chat_bottom_container_example/feature/home/state/home_state.dart';
 import 'package:chat_bottom_container_example/feature/home/widget/home_bottom_nav_bar.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:get/get.dart';
 import 'package:go_router/go_router.dart';
 

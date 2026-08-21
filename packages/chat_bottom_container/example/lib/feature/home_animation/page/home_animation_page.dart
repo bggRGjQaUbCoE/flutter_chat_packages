@@ -5,7 +5,7 @@
  */
 
 import 'package:chat_bottom_container_example/feature/home_animation/widget/home_animation_list_view.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:get/get.dart';
 import 'package:chat_bottom_container_example/feature/home_animation/logic/home_animation_logic.dart';
 import 'package:chat_bottom_container_example/feature/home_animation/header/home_animation_header.dart';

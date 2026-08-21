@@ -9,7 +9,7 @@ import 'package:chat_bottom_container_example/feature/chat_animation/logic/chat_
 import 'package:chat_bottom_container_example/feature/chat_animation/logic/chat_animation_logic_panel_container.dart';
 import 'package:chat_bottom_container_example/feature/chat_animation/state/chat_animation_state.dart';
 import 'package:cube_transition_plus/cube_transition_plus.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:get/get_state_manager/src/simple/get_state.dart';
 
 class ChatAnimationCubePanelContainer extends StatefulWidget {

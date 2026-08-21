@@ -7,7 +7,7 @@
 import 'package:chat_bottom_container_example/feature/comment/header/comment_header.dart';
 import 'package:chat_bottom_container_example/feature/comment/logic/comment_logic_panel.dart';
 import 'package:chat_bottom_container_example/feature/comment/state/comment_state.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 class CommentPanelBar extends StatefulWidget {
   const CommentPanelBar({super.key});

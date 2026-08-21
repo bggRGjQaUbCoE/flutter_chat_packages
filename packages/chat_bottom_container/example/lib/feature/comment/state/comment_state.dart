@@ -6,7 +6,7 @@
 
 import 'package:chat_bottom_container/panel_container.dart';
 import 'package:chat_bottom_container_example/feature/comment/header/comment_header.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 class CommentState {
   final FocusNode titleFocusNode = FocusNode();

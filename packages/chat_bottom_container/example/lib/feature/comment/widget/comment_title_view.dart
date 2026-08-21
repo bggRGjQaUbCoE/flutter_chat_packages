@@ -8,7 +8,7 @@ import 'package:chat_bottom_container_example/feature/comment/header/comment_hea
 import 'package:chat_bottom_container_example/feature/comment/logic/comment_logic.dart';
 import 'package:chat_bottom_container_example/feature/comment/state/comment_state.dart';
 import 'package:chat_bottom_container_example/feature/comment/widget/comment_text_field_wrapper.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:get/get.dart';
 
 class CommentTitleView extends StatefulWidget {

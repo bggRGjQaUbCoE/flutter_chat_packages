@@ -13,7 +13,7 @@ import 'package:chat_bottom_container_example/feature/comment/widget/comment_des
 import 'package:chat_bottom_container_example/feature/comment/widget/comment_panel_bar.dart';
 import 'package:chat_bottom_container_example/feature/comment/widget/comment_panel_container.dart';
 import 'package:chat_bottom_container_example/feature/comment/widget/comment_title_view.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:get/get.dart';
 
 class CommentPage extends StatefulWidget {

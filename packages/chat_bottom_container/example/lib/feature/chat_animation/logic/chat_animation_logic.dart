@@ -6,7 +6,7 @@
 
 import 'package:chat_bottom_container_example/common/route/route.dart';
 import 'package:chat_bottom_container_example/feature/chat_animation/header/chat_animation_header.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:get/get.dart';
 import 'package:chat_bottom_container_example/feature/chat_animation/state/chat_animation_state.dart';
 

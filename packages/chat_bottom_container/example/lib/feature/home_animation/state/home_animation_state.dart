@@ -5,7 +5,7 @@
  */
 
 import 'package:chat_bottom_container_example/feature/chat_animation/header/chat_animation_header.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 class HomeAnimationState {
   late BuildContext context;

@@ -10,7 +10,7 @@ import 'package:chat_bottom_container_example/feature/chat_animation/logic/chat_
 import 'package:chat_bottom_container_example/feature/chat_animation/logic/chat_animation_logic_panel_bar.dart';
 import 'package:chat_bottom_container_example/feature/chat_animation/widget/chat_animation_emoji_panel.dart';
 import 'package:chat_bottom_container_example/feature/chat_animation/widget/chat_animation_tool_panel.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 extension ChatAnimationLogicPanelBar on ChatAnimationLogic {
   hidePanel() {

@@ -8,7 +8,7 @@ import 'package:chat_bottom_container_example/feature/chat/header/chat_header.da
 import 'package:chat_bottom_container_example/feature/chat/logic/chat_logic_panel_bar.dart';
 import 'package:chat_bottom_container_example/feature/chat/state/chat_state.dart';
 import 'package:chat_bottom_container_example/feature/chat/widget/chat_input_view.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 class ChatPanelBar extends StatefulWidget {
   const ChatPanelBar({super.key});

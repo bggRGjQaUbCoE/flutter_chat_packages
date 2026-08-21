@@ -8,7 +8,7 @@ import 'package:chat_bottom_container_example/feature/chat_animation/header/chat
 import 'package:chat_bottom_container_example/feature/home_animation/header/home_animation_header.dart';
 import 'package:chat_bottom_container_example/feature/home_animation/logic/home_animation_logic_list_view.dart';
 import 'package:chat_bottom_container_example/feature/home_animation/state/home_animation_state.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 class HomeAnimationListView extends StatefulWidget {
   const HomeAnimationListView({super.key});

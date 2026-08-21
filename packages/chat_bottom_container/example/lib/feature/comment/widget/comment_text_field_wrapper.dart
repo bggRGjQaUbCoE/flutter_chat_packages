@@ -7,7 +7,7 @@
 import 'package:chat_bottom_container_example/feature/comment/header/comment_header.dart';
 import 'package:chat_bottom_container_example/feature/comment/logic/comment_logic_input_view.dart';
 import 'package:chat_bottom_container_example/feature/comment/state/comment_state.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 class CommentTextFieldWrapper extends StatefulWidget {
   final Widget child;

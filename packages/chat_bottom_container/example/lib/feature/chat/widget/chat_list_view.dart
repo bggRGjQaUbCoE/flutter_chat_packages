@@ -6,7 +6,7 @@
 
 import 'package:chat_bottom_container_example/feature/chat/header/chat_header.dart';
 import 'package:chat_bottom_container_example/feature/chat/logic/chat_logic_panel_container.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 class ChatListView extends StatefulWidget {
   const ChatListView({super.key});

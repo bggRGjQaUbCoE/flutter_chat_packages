@@ -10,7 +10,7 @@ import 'package:chat_bottom_container_example/feature/chat_animation/state/chat_
 import 'package:chat_bottom_container_example/feature/chat_animation/widget/chat_animation_list_view.dart';
 import 'package:chat_bottom_container_example/feature/chat_animation/widget/chat_animation_panel_bar.dart';
 import 'package:chat_bottom_container_example/feature/chat_animation/widget/panel_container/chat_animation_panel_container.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:get/get.dart';
 
 class ChatAnimationPage extends StatefulWidget {

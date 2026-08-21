@@ -9,7 +9,7 @@ import 'package:chat_bottom_container_example/feature/chat/page/chat_page.dart';
 import 'package:chat_bottom_container_example/feature/comment/page/comment_page.dart';
 import 'package:chat_bottom_container_example/feature/home_chat/header/home_chat_header.dart';
 import 'package:chat_bottom_container_example/feature/home_chat/logic/home_chat_logic.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 extension HomeChatLogicFloatingView on HomeChatLogic {
   void handleFloatingItemClick(HomeChatFloatingItemType type) {

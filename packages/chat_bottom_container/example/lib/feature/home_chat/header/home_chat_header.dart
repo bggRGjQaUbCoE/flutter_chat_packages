@@ -5,7 +5,7 @@
  */
 
 import 'package:chat_bottom_container_example/feature/home_chat/logic/home_chat_logic.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:getx_helper/getx_helper.dart';
 
 typedef HomeChatLogicPutMixin<W extends StatefulWidget>

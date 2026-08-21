@@ -6,7 +6,7 @@
 
 import 'package:chat_bottom_container_example/feature/home_chat/header/home_chat_header.dart';
 import 'package:chat_bottom_container_example/feature/home_chat/logic/home_chat_logic_floating_view.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 class HomeChatFloatingView extends StatefulWidget {
   const HomeChatFloatingView({super.key});
