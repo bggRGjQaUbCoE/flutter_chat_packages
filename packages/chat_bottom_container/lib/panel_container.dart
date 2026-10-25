@@ -11,7 +11,11 @@ import 'package:material_ui/material_ui.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class ChatBottomPanelContainerController<T> {
-  ChatBottomPanelContainerController({this.uiScale = 1.0});
+  ChatBottomPanelContainerController({
+    this.data,
+    this.uiScale = 1.0,
+    this.currentPanelType = ChatBottomPanelType.none,
+  });
 
   final double uiScale;
 
@@ -21,7 +25,7 @@ class ChatBottomPanelContainerController<T> {
   T? data;
 
   /// The current [ChatBottomPanelType].
-  ChatBottomPanelType currentPanelType = ChatBottomPanelType.none;
+  ChatBottomPanelType currentPanelType;
 
   /// The keyboard height (dynamic height under current orientation).
   /// This value may be 0 when the keyboard height has never been recorded
@@ -129,8 +133,8 @@ class _ChatBottomPanelContainerState<T>
     extends State<ChatBottomPanelContainer<T>> {
   String chatKeyboardManagerId = '';
 
-  ChatBottomPanelType lastPanelType = ChatBottomPanelType.none;
-  ChatBottomPanelType panelType = ChatBottomPanelType.none;
+  late ChatBottomPanelType lastPanelType;
+  late ChatBottomPanelType panelType;
 
   bool isIgnoreFocusListener = false;
 
@@ -163,6 +167,7 @@ class _ChatBottomPanelContainerState<T>
   Future<SharedPreferences> get preferences => SharedPreferences.getInstance();
 
   Future<void> setup() async {
+    lastPanelType = panelType = widget.controller.currentPanelType;
     safeAreaBottom = widget.safeAreaBottom ?? 0;
     widget.controller._attachState(this);
     chatKeyboardManagerId = ChatBottomContainerListenerManager().register(
