@@ -3,6 +3,49 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2026-11-07
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`chat_bottom_container` - `v0.5.4`](#chat_bottom_container---v054)
+
+---
+
+#### `chat_bottom_container` - `v0.5.4`
+
+ - **REFACTOR**(chat_bottom_container): drop material dependency and update example for Flutter 3.47 (#45).
+
+
+## 2026-10-14
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`chat_bottom_container` - `v0.5.3`](#chat_bottom_container---v053)
+
+---
+
+#### `chat_bottom_container` - `v0.5.3`
+
+ - **FEAT**(chat_bottom_container): 增加鸿蒙原生平台支持 (#42).
+ - **DOCS**(chat_bottom_container): tidy OHOS docs and sync ohos module version on release (#43).
+
+
 ## 2026-07-22
 
 ### Changes
